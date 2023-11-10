@@ -1,0 +1,72 @@
+/* .footerContainer {
+    background-color: #F56F53;
+} */
+
+.FooterHeading {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.FooterInputDiv {
+    width: 330px;
+    background: #F56F53;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.FooterInput {
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+}
+
+.FooterInput:focus {
+    outline: none;
+
+}
+
+.FooterInputBtn {
+    padding: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F56F53;
+    background: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.FooterLeftGrid ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.FooterList{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: #ffffff96;
+}
+.FooterInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+  }
+  
+  .FooterInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+  }
+  
+  .FooterInput::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF;
+  }

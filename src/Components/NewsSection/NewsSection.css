@@ -1,0 +1,75 @@
+.newLeftHead {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.newLeftHead {
+    border-left: 6px solid #F56F53;
+    padding-left: 25px;
+}
+
+.newsCarousalText {
+    font-size: 20px;
+    line-height: 165%;
+    color: #121212;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.newsContainerRight {
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* .RightCardPic {
+    width: 220px;
+    height: 119px;
+} */
+.RightCardTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #121212;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.RightCardText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #121212;
+    opacity: 0.5;
+}
+
+.RightCardFooterImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.RightCardFooterTitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #121212;
+}
+
+.RightCardFooterDate {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: rgba(18, 18, 18, 0.5);
+
+}

@@ -1,0 +1,42 @@
+.chooseContainer {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 22px -2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.WhyChooseCard {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.WhyChooseCardImgDiv {
+    margin: 0 auto;
+    background: #f56e532a;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.WhyChooseCardImgDiv img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.WhyChooseCardHead {
+    font-weight: 500;
+    /* font-size: 22px; */
+    line-height: 135%;
+    text-align: center;
+    color: #121212;
+    margin-top: 5px;
+}
+
+.WhyChooseCardText{
+    /* font-size: 18px; */
+    line-height: 135%;
+    text-align: center;
+    color: #121212;
+    opacity: 0.5;
+}

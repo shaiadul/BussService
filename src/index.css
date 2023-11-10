@@ -1,0 +1,54 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+/* body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} */
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffff;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffff;
+}
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none !important;
+   margin: 0 !important;
+ }
+ 
+ /* Firefox */
+ input[type=number] {
+   -moz-appearance: textfield !important;
+ }
+/* ----------------------------
+========== tailwind css ========
+------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
